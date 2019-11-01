@@ -1,0 +1,15 @@
+[fetch]
+        recurseSubmodules = false
+[user]
+        name = Sam Hibbard
+        email = samuel.hibbard@usaa.com
+[alias]
+        ci = commit
+        st = status
+        co = checkout
+        br = branch
+        unstage = reset HEAD --
+        last = log -1 HEAD
+        logall = log --all --graph --oneline --decorate
+        logsome = log --all --graph --pretty=short --decorate
+        logdiff = log --graph --oneline --decorate
