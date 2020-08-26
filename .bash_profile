@@ -22,6 +22,7 @@ alias git-remove-untracked='git fetch --prune && git branch -r | awk "{print \$1
 #alias windows='cd /mnt/c/Users/Admin/'
 alias git-add-identity="ssh-add -K ~/.ssh/id_rsa"
 alias rmd="rm -rf"
+alias ll="ls -al"
 
 # Git aliases
 alias gci="git commit"
